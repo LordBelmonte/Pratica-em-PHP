@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios JavaScript</title>
+</head>
+<body>
+<script>
+    // 1. Mostrar nome e idade
+    let nome = "Sarah";
+    let idade = 31;
+    console.log("Meu nome é " + nome + " e tenho " + idade + " anos.");
+
+    // 2. Soma de dois números
+    let num1 = 8;
+    let num2 = 5;
+    console.log("Soma:", num1 + num2);
+
+    // 3. Concatenar duas strings
+    let texto1 = "Olá, ";
+    let texto2 = "mundo!";
+    console.log(texto1 + texto2);
+    
+    /* Este é um comentário de várias linhas */
+    
+    // 4. Duas variáveis numéricas e todas as operações
+    let a = 10;
+    let b = 3;
+    console.log("Soma:", a + b);
+    console.log("Subtração:", a - b);
+    console.log("Multiplicação:", a * b);
+    console.log("Divisão:", a / b);
+    console.log("Módulo:", a % b);
+
+    
+    // 5. Verificar se um número é par ou ímpar
+    let numero = 7;
+    if (numero % 2 === 0) {
+        console.log(numero + " é par");
+    } else {
+        console.log(numero + " é ímpar");
+    }
+
+    // 6. Comparação entre inteiro e string
+    let inteiro = 10;
+    let stringNumero = "10";
+    console.log("inteiro == stringNumero:", inteiro == stringNumero);   // compara valor (true)
+    console.log("inteiro === stringNumero:", inteiro === stringNumero); // compara valor e tipo (false)
+
+    // 7. Diferentes tipos de variáveis
+    let texto = "Olá mundo";   // string
+    let inteiro2 = 42;         // inteiro
+    let decimal = 3.14;        // float
+    let booleano = true;       // boolean
+
+    console.log(typeof texto, texto);
+    console.log(typeof inteiro2, inteiro2);
+    console.log(typeof decimal, decimal);
+    console.log(typeof booleano, booleano);
+
+    // 8. Converter Celsius para Fahrenheit
+    let celsius = 25;
+    let fahrenheit = (celsius * 9 / 5) + 32;
+    console.log(`${celsius}°C equivalem a ${fahrenheit}°F`);
+
+    // 9. Média de três notas
+    let nota1 = 7;
+    let nota2 = 8;
+    let nota3 = 6;
+    let media = (nota1 + nota2 + nota3) / 3;
+
+    if (media >= 7) {
+        console.log(`Aluno aprovado com média ${media.toFixed(2)}`);
+    } else {
+        console.log(`Aluno reprovado com média ${media.toFixed(2)}`);
+    }
+</script>
+</body>
+</html
