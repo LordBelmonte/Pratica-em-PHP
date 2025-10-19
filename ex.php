@@ -9,7 +9,7 @@
     <?php 
     $nome= "Felipe";
     $idade= "27";
-    $sexo = "Masculino"
+    $sexo = "Masculino";
 
     echo "Meu nome é $nome e eu tenho $idade anos e sou do sexo $sexo.";     
     ?>
