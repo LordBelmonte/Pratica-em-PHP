@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php 
-    $nome= "Sarah";
-    $idade= "30";
+    $nome= "Felipe";
+    $idade= "27";
 
     echo "Meu nome é $nome e eu tenho $idade anos.";     
     ?>
